@@ -5,39 +5,23 @@ import java.util.Scanner;
 public class T4 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        visitor vis=new visitor();
-        vis.setName(scan.next());
-        int age=scan.nextInt();
-        vis.setAge(age);
-        String paper="";
-        if(vis.getAge()==0){
-            paper="免费";
-        }else{
-            paper=vis.getAge()+"元";
-        }
-        System.out.println(vis.getName()+"的年龄是"+age+"门票"+paper);
+        Visitor vis=new Visitor(scan.next(), scan.nextInt());
+        vis.Print();
     }
-    public static class visitor{
+    public static class Visitor{
         private String name;
         private int age;
 
-        public void setName(String name) {
+        public Visitor(String name, int age) {
             this.name = name;
-        }
-
-        public void setAge(int age) {
             this.age = age;
         }
-
-        public String getName() {
-            return name;
-        }
-
-        public int getAge() {
-            if(this.age>60||this.age<18){
-                return 0;
+        public void Print(){
+            if(age>60&& age<18){
+                System.out.println(name+"的年龄是"+age+",门票免费");
+            }else{
+                System.out.println(name+"的年龄是"+age+",门票20元");
             }
-            return 20;
         }
     }
 }
