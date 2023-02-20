@@ -3,5 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Unit1/T3-百度翻译文字/results/js.html" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Unit1/T3-百度翻译文字/results/sure.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/1-RE模块/T2-豆瓣top250爬取/douban.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/1-RE模块/T2-豆瓣top250爬取/豆瓣图书top250/douban_booktop250.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/1-RE模块/T2-豆瓣top250爬取/豆瓣电影top250/douban_movicetop250.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/1-RE模块/T2-豆瓣top250爬取/豆瓣音乐top250/douban_musictop250.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/1-RE模块/T3-Q租房新房房源信息/q租房新房信息.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/1-RE模块/T5-京东购物爬取/123京东爬取列表.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/1-RE模块/T5-京东购物爬取/游戏本京东爬取列表.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Unit2/2-BeautifulSoup模块/T1-bs4基础使用/北京新发地菜价获取.csv" charset="GBK" />
   </component>
 </project>
