@@ -9,8 +9,9 @@ public class Main {
         String user="root";
         String passwd="123";
         String sql="insert into users values (105,'zhangsanf','123','zsf')";
-        Driver driver=new com.mysql.cj.jdbc.Driver();
-        DriverManager.registerDriver(driver);
+        DBHelper.getConnection();
+//        Driver driver=new com.mysql.cj.jdbc.Driver();
+//        DriverManager.registerDriver(driver);
         Connection con= DriverManager.getConnection(url,user,passwd);
         Statement stmt=con.createStatement();
         int result= stmt.executeUpdate(sql);
@@ -39,7 +40,6 @@ public class Main {
         sql查询语句
          */
 //        rs.close();
-        stmt.close();
-        con.close();
+        DBHelper.close(con,stmt);
     }
 }
