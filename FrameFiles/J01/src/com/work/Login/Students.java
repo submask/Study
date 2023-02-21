@@ -14,7 +14,14 @@ public class Students implements loginUser{
     @Override
     public String login() {
         if (username.equals("xs1") && passwd.equals("123456")){
-
+             name="小明";
         }
+        if (username.equals("xs2") && passwd.equals("123456")){
+            name="小红";
+        }
+        if (username.equals("xs3") && passwd.equals("123456")){
+            name="小东";
+        }
+        return name;
     }
 }
